@@ -1,0 +1,48 @@
+.exercise {
+  border: 1px solid red;
+  width: 80%;
+  margin: auto;
+}
+.exercise .title {
+  margin: auto;
+  width: fit-content;
+  color: green;
+  text-align: center;
+  border-bottom: 1px solid blue;
+}
+.exercise .content {
+  display: flex;
+  flex-direction: row;
+  background: rgb(249, 249, 249);
+  margin: 15px;
+}
+.exercise .content .cln-1 {
+  border: 1.3px solid green;
+}
+.exercise .content .cln-1 p {
+  padding: 1rem;
+  color: blue;
+}
+.exercise .content .cln-2 {
+  border: 1.3px solid green;
+}
+.exercise .content .cln-2 p {
+  padding: 1rem;
+  color: red;
+}
+.exercise .content .cln-3 {
+  border: 1.3px solid green;
+}
+.exercise .content .cln-3 p {
+  padding: 1rem;
+  color: blue;
+}
+.exercise .content .cln-4 {
+  border: 1.3px solid green;
+}
+.exercise .content .cln-4 p {
+  padding: 1rem;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

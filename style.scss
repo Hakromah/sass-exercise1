@@ -1,0 +1,50 @@
+$color-primary: red;
+$color-tertiary: green;
+$color: blue;
+.exercise {
+    border: 1px solid $color-primary;
+    width: 80%;
+    margin: auto;
+    .title {
+        margin:auto;
+        width: fit-content;
+        color: $color-tertiary;
+        text-align: center;
+        border-bottom: 1px solid $color;
+    }
+    .content {
+       display: flex;
+       flex-direction: row;
+       background: rgb(249, 249, 249);
+       margin: 15px;
+
+       .cln-1 {
+        border: 1.3px solid $color-tertiary;
+        p {
+            padding: 1rem;
+            color: $color;
+        }
+       }
+       .cln-2 {
+        border: 1.3px solid $color-tertiary;
+        p {
+            padding: 1rem;
+            color: $color-primary;
+        }
+       }
+       .cln-3 {
+        border: 1.3px solid $color-tertiary;
+        p {
+            padding: 1rem;
+            color: $color;
+        }
+       }
+       .cln-4 {
+        border: 1.3px solid $color-tertiary;
+        p {
+            padding: 1rem;
+            color: $color-primary;
+        }
+       }
+    }
+}
